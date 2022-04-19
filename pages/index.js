@@ -4,7 +4,7 @@ import { getFeaturedEvents } from '../dummy-data';
 function HomePage() {
     
     const featuredEvents = getFeaturedEvents();
-
+    // Hello Arber
     return (
         <div>
             <EventList items={featuredEvents} />
